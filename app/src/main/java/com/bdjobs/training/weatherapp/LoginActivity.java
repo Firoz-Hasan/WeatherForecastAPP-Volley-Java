@@ -150,6 +150,8 @@ public class LoginActivity extends AppCompatActivity {
           pdialog = ProgressDialog.show(this, "Please wait",
                  "Logging in..", false);
         String url2 = baseUrl + "?userName=" + userName1 + "&password=" + password1;
+        // username : Evan ; Password: 123456
+
         JsonObjectRequest loginRequest = new JsonObjectRequest
                 (Request.Method.GET, url2, null, new Response.Listener<JSONObject>() {
 
