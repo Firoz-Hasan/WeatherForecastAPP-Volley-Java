@@ -142,9 +142,9 @@ public class MainActivity extends AppCompatActivity {
                             String temperature = conditionObject.getString("temp");
                             String temperatureText = conditionObject.getString("text");
                             String date = conditionObject.getString("date");
-                            String[] parts = date.split("2017");
+                            /*String[] parts = date.split("2017");
                             String part1 = parts[0];
-                            String part2 = parts[1];
+                            String part2 = parts[1];*/
 
 
                             String windSpeed = windObject.getString("speed");
@@ -188,7 +188,7 @@ public class MainActivity extends AppCompatActivity {
 
                             dateTV4.setSingleLine(false);
                             //nline.setText("first line\n"+"second line\n"+"third line");
-                            dateTV4.setText("    " + part1 + "\n" + part2);
+                           // dateTV4.setText("    " + part1 + "\n" + part2);
                             speedTV9.setText(windSpeed + speedMPH);
                             humidityTV7.setText(humidity + "%");
                             percipitationTV11.setText(pressure);

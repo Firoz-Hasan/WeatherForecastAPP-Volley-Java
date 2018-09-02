@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText userNameET, passwordET;
     Button loginBTN;
     String userName, password;
-    String baseUrl = "https://us-central1-wallpaper-59b3a.cloudfunctions.net/login";
+    String baseUrl = "http://my.bdjobs.com/apps/mybdjobs/apps_agent_log.asp";
 
     ProgressDialog pdialog;
 
